@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietjack.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="grid wide">
+            <div class="header">
+                <label for="header__menu-check" class="header__menu-wrapper">
+                    <i class="header__menu-bars fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" hidden id="header__menu-check">
+                <div class="header__menu-modal">
+                    <div class="header__menu">
+                        <a href="#" class="header__individual-item-info-link">
+                            <div class="header__individual-item-info-avatar">H</div>
+                            <div class="header__individual-item-info-text">
+                                <b>Hoang Tran</b>
+                                <p>huyhoangtran@281@gmail.com</p>
+                            </div>
+                        </a>
+                        <div class="header__menu-course">
+                            <p class="header__menu-course-text">
+                                Khóa học <i class="fa-solid fa-angle-right"></i>
+                            </p>
+                            <input id="header__menu-course-check" hidden type="checkbox">
+                            <ul class="header__navbar-menu">
+                                <label for="header__menu-course-check" class="header__mobileMenu-heading"><i class="fa-solid fa-chevron-left"></i>Khóa học</label>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 12</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 11</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 10</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 9</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 8</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 7</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 6</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 5</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 4</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li class="header__navbar-menu-item">
+                                    <a href="#" class="header__navbar-menu-link">
+                                        <i class="header__mobileMenu-icon-heading2 fa-solid fa-graduation-cap"></i>
+                                        <p class="header__navbar-menu-link-text">Lớp 3</p>
+                                        <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="header__menu-link">Thi online</a>
+                        <a href="#" class="header__menu-link">Tuyển sinh</a>
+                        <ul class="header__individual-item-info-option">
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-solid fa-cart-shopping"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Khóa học của tôi</p>
+                                </a>
+                            </li>
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-solid fa-user"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Thông tin cá nhân</p>
+                                </a>
+                            </li>
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-solid fa-clock-rotate-left"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Lịch sử mua hàng</p>
+                                </a>
+                            </li>
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-solid fa-list-check"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Trắc nghiệm đã tham gia</p>
+                                </a>
+                            </li>
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-regular fa-bell"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Thông báo</p>
+                                </a>
+                            </li>
+                            <hr class="header__individual-menu-bulkhead">
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-regular fa-circle-question"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Trợ giúp</p>
+                                </a>
+                            </li>
+                            <li class="header__individual-item">                  
+                                <a href="#" class="header__individual-link header__individual-link--menu">
+                                    <i class="header__individual-menu-icon fa-solid fa-share-from-square"></i>
+                                    <p class="header__individual-text header__individual-text--menu">Đăng xuất</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <label for="header__menu-check" class="header__menu-modal-coating"></label>
+                </div>
+                <div class="Logo">
+                    <img class="Logo-img" src="./assets/img/logo.png" alt="logo">
+                </div>
+                <ul class="header__navbar">
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-link">
+                            <i class="header__navbar-link-icon fa-solid fa-bars"></i>
+                            <p class="header__navbar-link-name">Khóa học</p>
+                        </a>
+                        <ul class="header__navbar-menu">
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 12</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-flask"></i>
+                                            <p>Hóa học</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh (mới)</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fab fa-pagelines"></i>
+                                            <p>Sinh học</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 11</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-flask"></i>
+                                            <p>Hóa học</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh (mới)</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fab fa-pagelines"></i>
+                                            <p>Sinh học</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 10</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-flask"></i>
+                                            <p>Hóa học</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh (mới)</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fab fa-pagelines"></i>
+                                            <p>Sinh học</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 9</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-flask"></i>
+                                            <p>Hóa học</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh (mới)</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fab fa-pagelines"></i>
+                                            <p>Sinh học</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 8</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-flask"></i>
+                                            <p>Hóa học</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fab fa-pagelines"></i>
+                                            <p>Sinh học</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 7</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-balance-scale"></i>
+                                            <p>Vật lý</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 6</p>                                
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 5</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-language"></i>
+                                            <p>Tiếng anh</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 4</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__navbar-menu-item header__navbar-menu-item--end">
+                                <a href="#" class="header__navbar-menu-link">
+                                    <p class="header__navbar-menu-link-text">Lớp 3</p>
+                                    <i class="header__navbar-menu-link-icon--1 fa-solid fa-chevron-right"></i>
+                                    <i class="header__navbar-menu-link-icon--2 fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="header__navbar-menu header__navbar-menu--list">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fa-solid fa-calculator"></i>
+                                            <p>Toán</p>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-menu-link" href="#">
+                                            <i class="fas fa-pencil-alt"></i>
+                                            <p>Văn</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-link">
+                            <i class="header__navbar-link-icon fa-solid fa-check-double"></i>
+                            <p class="header__navbar-link-name">Thi online</p>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-link">
+                            <i class="header__navbar-link-icon fa-solid fa-graduation-cap"></i>
+                            <p class="header__navbar-link-name">Tuyển sinh</p>
+                        </a>                   
+                    </li>
+                </ul>
+                <button class="header__search-btn b-dn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div class="header__search m-s-dn">
+                    <button class="header__search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Tìm kiếm" class="header__search-input">
+                </div>
+    
+                
+                <div class="header__individual">
+                    <div class="header__individual-item m-s-dn">
+                        <a href="#" class="header__individual-link">
+                            <p class="header__individual-text">Khóa học của tôi</p>
+                        </a>
+                        <div class="header__individual-course">
+                            <p class="header__individual-course-text text-center">Bạn chưa mua khóa học nào!</p>
+                        </div>
+                    </div>
+                    <a href="#" class="header__individual-link">
+                        <i class="header__individual-link-icon fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="header__individual-item">
+                        <a href="#" class="header__individual-link">
+                            <i class="header__individual-link-icon fa-regular fa-bell"></i>
+                        </a>
+                        <div class="header__individual-notification">
+                            <p class="header__individual-notification-text text-center">Bạn không có thông báo nào!</p>
+                        </div>
+                    </div>
+                    <div class="header__individual-item">
+                        <a class="header__individual-in4">
+                            <p>H</p>
+                        </a>
+                        <div class="header__individual-item-info">
+                            <a href="#" class="header__individual-item-info-link">
+                                <div class="header__individual-item-info-avatar">H</div>
+                                <div class="header__individual-item-info-text">
+                                    <b>Hoang Tran</b>
+                                    <p>huyhoangtran@281@gmail.com</p>
+                                </div>
+                            </a>
+                            <ul class="header__individual-item-info-option">
+                                <li class="header__individual-item">                  
+                                    <a href="#" class="header__individual-link header__individual-link--menu">
+                                        <i class="header__individual-menu-icon fa-solid fa-user"></i>
+                                        <p class="header__individual-text header__individual-text--menu">Thông tin cá nhân</p>
+                                    </a>
+                                </li>
+                                <li class="header__individual-item">                  
+                                    <a href="#" class="header__individual-link header__individual-link--menu">
+                                        <i class="header__individual-menu-icon fa-solid fa-clock-rotate-left"></i>
+                                        <p class="header__individual-text header__individual-text--menu">Lịch sử mua hàng</p>
+                                    </a>
+                                </li>
+                                <li class="header__individual-item">                  
+                                    <a href="#" class="header__individual-link header__individual-link--menu">
+                                        <i class="header__individual-menu-icon fa-solid fa-list-check"></i>
+                                        <p class="header__individual-text header__individual-text--menu">Trắc nghiệm đã tham gia</p>
+                                    </a>
+                                </li>
+                                <hr class="header__individual-menu-bulkhead">
+                                <li class="header__individual-item">                  
+                                    <a href="#" class="header__individual-link header__individual-link--menu">
+                                        <i class="header__individual-menu-icon fa-regular fa-circle-question"></i>
+                                        <p class="header__individual-text header__individual-text--menu">Trợ giúp</p>
+                                    </a>
+                                </li>
+                                <li class="header__individual-item">                  
+                                    <a href="#" class="header__individual-link header__individual-link--menu">
+                                        <i class="header__individual-menu-icon fa-solid fa-share-from-square"></i>
+                                        <p class="header__individual-text header__individual-text--menu">Đăng xuất</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn header__individual-help">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <p>Hỏi bài</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container -->
+    <div id="container">
+        <div class="grid wide wide--container">
+            <div class="row row--pad-0--10">
+                <div class="col col--pad-0-10 l-8 m-6 c-12">
+                    <div class="container__videoLiveTream">
+                        <img src="https://khoahoc.vietjack.com/upload/images/livestreams/1/606ec0acd53c9_650x350.png" alt="liveTream" class="container__videoLiveTream-img">
+                        <div class="container__videoLiveTream-information">
+                            <a href="#" class="btn container__videoLiveTream-btn">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                <p>Trực tiếp</p>
+                            </a>
+                            <a href="#" class="btn container__videoLiveTream-next-btn">Xem thêm »</a>
+                            <div class="container__videoLiveTream-content">
+                                <p class="container__videoLiveTream-text">Livesteam HÓA cô THU</p>
+                                <div class="container__videoLiveTream-infoCard">
+                                    <div class="container__liveTream-infoCard-avatar-wrap">
+                                        <img src="./assets/img/Co-Thu.png" alt="avatar" class="container__liveTream-infoCard-avatar">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="container__liveTream-infoCard-avatarCheck">
+                                            <path d="M20 6L9 17l-5-5"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="container__videoLiveTream-infoCard-text">
+                                        <b>Cô Nguyễn Thị Thu</b>
+                                        <p>Luyện Thi THPTQG 2022 • Môn Hóa học • <i class="fa-solid fa-users"></i> 191496</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="col col--pad-0-10 l-4 m-6 c-0">
+                    <div class="container__navbar">
+                        <div class="container__navbar-heading">
+                            <span class="container__navbar-btn">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </span>
+                            <ul class="container__navbar-list">
+                            <li class="container__navbar-item container__navbar-item--active">Đánh giá năng lực</li>
+                            <li class="container__navbar-item">THPTQG</li> 
+                            <li class="container__navbar-item">Lớp 12</li>
+                            </ul>
+                            <span class="container__navbar-btn">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                            <img src="./assets/img/bg-title.png" alt="Bg title" class="container__exams-img">
+                        </div>
+                        <ul class="container__exams">
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>Đề thi thử Bằng lái xe Mô tô A2 trực tuyến năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 20 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 3180 lượt thi</span>
+                                        <button class="btn">Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>600 Câu trắc nghiệm lý thuyết bằng lái xe Ô tô B2, C, D, E có đáp án năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 18 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 3101 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>Đề thi thử Bằng lái xe Ô tô B2 trực tuyến năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 18 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 2812 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>Đề thi thử Bằng lái xe Máy A1 trực tuyến năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 10 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 2735 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>200 câu trắc nghiệm lý thuyết bằng lái xe máy A1 có đáp án năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 9 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 2529 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>500 Câu trắc nghiệm lý thuyết bằng lái xe Mô tô A2 có đáp án năm 2022</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 21 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 1091 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>150 câu trắc nghiệm Mạng không dây có đáp án</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 11 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 587 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>1000+ Câu hỏi trắc nghiệm kiến trúc máy tính có đáp án</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 22 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 506 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>220 câu trắc nghiệm Cấu trúc dữ liệu và giải thuật có đáp án</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 12 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 426 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="container__exam">
+                                <a href="#" class="container__exam-link">
+                                    <div class="container__exam-wrap-imgIcon">
+                                        <img src="./assets/img/checked.png" alt="Icon check" class="container__exam-imgIcon">
+                                    </div>
+                                    <div class="container__exam-content">
+                                        <p>500 câu trắc nghiệm Nguyên lí hệ điều hành có đáp án</p>
+                                        <span><i class="fa-solid fa-file-signature"></i> 12 đề</span>
+                                        <span><i class="fa-regular fa-clock"></i> 375 lượt thi</span>
+                                        <button>Thi ngay</button>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <footer class="container__navbar-footer">
+                            <div class="container__navbar-footer-mist"></div>
+                            <a href="#" class="container__navbar-btn container__navbar-btn--footer">Xem thêm »</a>
+                            <a href="#" class="container__navbar-btn container__navbar-btn--footer">Tải app đề thi »</a>
+                        </footer>
+                    </div>
+                </nav>
+            </div>
+            <div class="row row--no-wrap mt-28">
+                <div class="col l-3 m-5 c-12">
+                    <a href="#" class="container__liveTream-link">
+                        <div class="container__liveTream-infoCard-avatar-wrap">
+                            <img src="./assets/img/Co-Mai-Anh.jpg" alt="avatar" class="container__liveTream-infoCard-avatar container__liveTream-infoCard-avatar--course">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="container__liveTream-infoCard-avatarCheck container__liveTream-infoCard-avatarCheck--active">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            <span class="container__liveTream-infoCard-name">Cô Lê Mai Anh</span>                        
+                        </div>
+                        <b class="container__liveTream-name">Từ vựng mức độ nhận biết</b>
+                        <p class="container__liveTream-desc">Luyện thi THPTQG • Tiếng Anh (mới) • 19:30 18/10/2021 • <i class="fa-solid fa-users"></i> 10107</p>
+                        <span class="btn container__liveTream-btn">Trực tiếp</span>
+                    </a>
+                </div>
+                <div class="col l-3 m-5 c-12">
+                    <a href="#" class="container__liveTream-link">
+                        <div class="container__liveTream-infoCard-avatar-wrap">
+                            <img src="./assets/img/Thay-Le-Ngoc.jfif" alt="avatar" class="container__liveTream-infoCard-avatar container__liveTream-infoCard-avatar--course">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="container__liveTream-infoCard-avatarCheck container__liveTream-infoCard-avatarCheck--active">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            <span class="container__liveTream-infoCard-name">Thầy Lê Ngọc</span>                        
+                        </div>
+                        <b class="container__liveTream-name">Bài toán tương giao đường thẳng với Parabol</b>
+                        <p class="container__liveTream-desc">Lớp 11 • Toán • 19:37 20/04/2022 • <i class="fa-solid fa-users"></i> 3020</p>
+                        <span class="btn container__liveTream-btn">Trực tiếp</span>
+                    </a>
+                </div>
+                <div class="col l-3 m-5 c-12">
+                    <a href="#" class="container__liveTream-link">
+                        <div class="container__liveTream-infoCard-avatar-wrap">
+                            <img src="./assets/img/Thay-Nhat-Trung.jpg" alt="avatar" class="container__liveTream-infoCard-avatar container__liveTream-infoCard-avatar--course">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="container__liveTream-infoCard-avatarCheck container__liveTream-infoCard-avatarCheck--active">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            <span class="container__liveTream-infoCard-name">Thầy Kim Nhật Trung</span>                        
+                        </div>
+                        <b class="container__liveTream-name">3 Định luật Niuton</b>
+                        <p class="container__liveTream-desc">Lớp 10 • Vật lý • 20:53 27/10/2021 • <i class="fa-solid fa-users"></i> 5428</p>
+                        <span class="btn container__liveTream-btn">Trực tiếp</span>
+                    </a>
+                </div>
+                <div class="col l-3 m-5 c-12">
+                    <a href="#" class="container__liveTream-link">
+                        <div class="container__liveTream-infoCard-avatar-wrap">
+                            <img src="./assets/img/Thay-Le-Ngoc.jfif" alt="avatar" class="container__liveTream-infoCard-avatar container__liveTream-infoCard-avatar--course">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="container__liveTream-infoCard-avatarCheck container__liveTream-infoCard-avatarCheck--active">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                            <span class="container__liveTream-infoCard-name">Thầy Lê Ngọc</span>                        
+                        </div>
+                        <b class="container__liveTream-name">Phương trình tiếp tuyến từ A đến Z</b>
+                        <p class="container__liveTream-desc">Lớp 11 • Toán • 21:00 07/04/2022 • <i class="fa-solid fa-users"></i> 4791</p>
+                        <span class="btn container__liveTream-btn">Trực tiếp</span>
+                    </a>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Bạn muốn học gì?</h1>
+                <div class="container__nav">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap">
+                        <li class="col l-2-4 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link">
+                                <img src="./assets/img/Toán.jpg" alt="Môn học">
+                                <span>Toán</span>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link">
+                                <img src="./assets/img/van.jpg" alt="Môn học">
+                                <span>Văn</span>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link">
+                                <img src="./assets/img/vat-ly.jpg" alt="Môn học">
+                                <span>Vật lý</span>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link">
+                                <img src="./assets/img/hoa.jpg" alt="Môn học">
+                                <span>Hóa học</span>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link">
+                                <img src="./assets/img/Tieng-anh.jpg" alt="Môn học">
+                                <span>Tiếng anh (mới)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Luyện thi THPT QG</h1>
+                <a class="container__more-link">Xem thêm <i class="fa-regular fa-circle-right"></i></a>
+                <div class="container__list">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap container__list-row">
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toán-THPTQG-Thay-Huy.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Luyện thi THPTQG môn Toán - Thầy Nguyễn Quý Huy - MỤC TIÊU 8+</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Quy-Huy.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Quý Huy</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star-half"></i></li>
+                                            <span class="container__course-ratings-index">4.5</span>
+                                            <span class="container__course-ratings-turns">(14)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">1,000,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Ly-THPTQG-Thay-Trung.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Luyện thi THPTQG môn Lý - Thầy Kim Nhật Trung - MỤC TIÊU 8+</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Nhat-Trung.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Kim Nhật Trung</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(1)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">1,000,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Anh-THPTQG-Co-Hoa.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Khóa NGỮ PHÁP môn Tiếng Anh- Luyện thi THPT QG - cô Vũ Thanh Hoa</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Co-Thanh-Hoa.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Vũ Thanh Hoa</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(6)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">1,000,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Ly-THPTQG-Thay-Cuong.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Luyện thi THPTQG môn Lý - Thầy Hoàng Cường - MỤC TIÊU  8+</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Hoang-Cuong.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Hoàng CườngEdu</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(8)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">1,000,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Sinh-THPTQG-Thay-Trung.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Luyện thi THPT QG - Môn Sinh - Thầy Nguyễn Viết Trung</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Viet-Trung.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Viết Trung</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(3)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">1,000,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Khối 10, 11</h1>
+                <a class="container__more-link">Xem thêm <i class="fa-regular fa-circle-right"></i></a>
+                <div class="container__list">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap container__list-row">
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toán11-Thay-QHuy.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Toán 11 - Thầy Nguyễn Quý Huy</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Quy-Huy.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Quý Huy</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star-half"></i></li>
+                                            <span class="container__course-ratings-index">4.5</span>
+                                            <span class="container__course-ratings-turns">(10)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Ly11-Thay-Hai.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Vật Lý 11 - Thầy Trần Trung Hải</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Trung-Hai.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Trần Trung Hải</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <span class="container__course-ratings-index">0</span>
+                                            <span class="container__course-ratings-turns">(0)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toán11-Thay-QHuy2.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Ôn luyện Toán 11 - thầy Nguyễn Quý Huy</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Quy-Huy.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Quý Huy</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(2)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Hoa11-Co-Thanh-Thuy.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Hóa 11 - Cô Nguyễn Thanh Thủy</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Co-Thanh-Thuy.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Thanh Thủy</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(1)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Ly11-Thay-NTrung.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Ôn luyện Vật lí lớp 11 - Thầy Kim Nhật Trung</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Thay-Viet-Trung.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Kim Nhật Trung</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(1)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Khối THCS</h1>
+                <ul class="row container__list-row">
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Toán9-Thay-THai.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Toán 9 - Thầy Trần Trung Hải</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Thay-Trung-Hai.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Trần Trung Hải</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <span class="container__course-ratings-index">5</span>
+                                        <span class="container__course-ratings-turns">(8)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-oldPrice">799,000 đ</span>
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/NVan9-Co-NAnh.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Ngữ văn lớp 9 - Cô Nguyễn Ngọc Anh</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Co-Ngoc-Anh.jfif" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Ngọc Anh</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <span class="container__course-ratings-index">5</span>
+                                        <span class="container__course-ratings-turns">(3)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-oldPrice">799,000 đ</span>
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Hoa8-Co-Thu.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Hóa học 8 - Cô Nguyễn Thị Thu</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Co-Thu.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Thị Thu</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star-half"></i></li>
+                                        <span class="container__course-ratings-index">4.5</span>
+                                        <span class="container__course-ratings-turns">(14)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-oldPrice">799,000 đ</span>
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Anh7-Co-HThu.jpg" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Tiếng Anh lớp 7 - Cô Hoài Thu</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Co-Hoai-Thu.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Hoài Thu</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star-half"></i></li>
+                                        <span class="container__course-ratings-index">4.5</span>
+                                        <span class="container__course-ratings-turns">(17)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-oldPrice">799,000 đ</span>
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Toan7-Thay-TAnh.jpg" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Toán 7 - Thầy Lê Tuấn Anh</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Thay-Tuan-Anh.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Lê Tuấn Anh</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star-half"></i></li>
+                                        <span class="container__course-ratings-index">4.5</span>
+                                        <span class="container__course-ratings-turns">(24)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-oldPrice">799,000 đ</span>
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Toan6-Co-TThuy.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Toán 6 - Cánh diều - GV Nguyễn Thị Thanh Thủy</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/user.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Thị Thanh Thủy</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <span class="container__course-ratings-index">0</span>
+                                        <span class="container__course-ratings-turns">(0)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Van6-Thay-Hoang.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Ngữ văn 6 - Kết nối tri thức - Thầy Nguyễn Huy Hoàng</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Vietjack-img.jpg" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Huy Hoàng</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <span class="container__course-ratings-index">0</span>
+                                        <span class="container__course-ratings-turns">(0)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Toan6-Co-TThuy.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Toán 6 - Cánh diều - GV Nguyễn Thị Thanh Thủy</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/user.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Thị Thanh Thủy</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <span class="container__course-ratings-index">0</span>
+                                        <span class="container__course-ratings-turns">(0)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Van6-Thay-Hoang.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Ngữ văn 6 - Kết nối tri thức - Thầy Nguyễn Huy Hoàng</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/Vietjack-img.jpg" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Huy Hoàng</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <span class="container__course-ratings-index">0</span>
+                                        <span class="container__course-ratings-turns">(0)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col l-2-4 m-4 c-6">
+                        <a href="#" class="container__course-link">
+                            <img src="./assets/img/Toan6-Co-TThuy.png" alt="Khóa học" class="container__course-img">
+                            <div class="container__course-body">
+                                <p class="container__course-name">Toán 6 - Cánh diều - GV Nguyễn Thị Thanh Thủy</p>
+                                <div class="container__course-ratings">
+                                    <div class="container__course-ratings-info">
+                                        <img src="./assets/img/user.png" alt="avatar">
+                                        <span class="container__course-ratings-name">Nguyễn Thị Thanh Thủy</span>
+                                    </div>
+                                    <ul class="container__course-star-list">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <span class="container__course-ratings-index">0</span>
+                                        <span class="container__course-ratings-turns">(0)</span>
+                                    </ul>
+                                </div>
+                                <div class="container__course-price">
+                                    <span class="container__course-currentPrice">599,000 đ</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Khối Tiểu Học</h1>
+                <a class="container__more-link">Xem thêm <i class="fa-regular fa-circle-right"></i></a>
+                <div class="container__list">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap container__list-row">
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toan5-Co-Hoa.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Toán 5 - Cô Nguyễn Thị Hòa</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/user.png" alt="avatar">
+                                            <span class="container__course-ratings-name">Nguyễn Thị Hòa</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <span class="container__course-ratings-index">4</span>
+                                            <span class="container__course-ratings-turns">(3)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toan5-Co-Vui.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Toán 5 - Cô Trịnh Thị Vui</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Vietjack-img.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Trịnh Thị Vui</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star-half"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <span class="container__course-ratings-index">3.5</span>
+                                            <span class="container__course-ratings-turns">(4)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/LThi-Toan6-Co-Vui.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Luyện thi vào lớp 6 trường chuyên -  môn Toán - Cô Trịnh Vui</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Vietjack-img.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Trịnh Thị Vui</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <span class="container__course-ratings-index">3</span>
+                                            <span class="container__course-ratings-turns">(1)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Anh5-Co-Ly.jpg" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Tiếng Anh lớp 5 - Cô Giang Ly</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Co-Ly.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Giang Ly</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star-half"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                            <span class="container__course-ratings-index">3.5</span>
+                                            <span class="container__course-ratings-turns">(3)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link">
+                                <img src="./assets/img/Toan4-Co-Vui.png" alt="Khóa học" class="container__course-img">
+                                <div class="container__course-body">
+                                    <p class="container__course-name">Toán 4 - Cô Trịnh Thị Vui</p>
+                                    <div class="container__course-ratings">
+                                        <div class="container__course-ratings-info">
+                                            <img src="./assets/img/Vietjack-img.jpg" alt="avatar">
+                                            <span class="container__course-ratings-name">Trịnh Thị Vui</span>
+                                        </div>
+                                        <ul class="container__course-star-list">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <span class="container__course-ratings-index">5</span>
+                                            <span class="container__course-ratings-turns">(2)</span>
+                                        </ul>
+                                    </div>
+                                    <div class="container__course-price">
+                                        <span class="container__course-oldPrice">799,000 đ</span>
+                                        <span class="container__course-currentPrice">599,000 đ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Giảng viên tiêu biểu</h1>
+                <a class="container__more-link">Xem thêm <i class="fa-regular fa-circle-right"></i></a>
+                <div class="container__list">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap container__list-row">
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link container__course-link-teachers">
+                                <img src="./assets/img/Thay-The-Anh.png" alt="Avatar" class="container__course-avatar-m-size">
+                                <p class="container__course-position">Thầy giáo</p>
+                                <b class="container__course-nameTeacher">Trần Thế Anh</b>
+                                <b class="container__course-subjects">Hóa Học</b>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link container__course-link-teachers">
+                                <img src="./assets/img/Co-Thanh-Hoa2.jpg" alt="Avatar" class="container__course-avatar-m-size">
+                                <p class="container__course-position">Cô giáo</p>
+                                <b class="container__course-nameTeacher">Vũ Thanh Hoa</b>
+                                <b class="container__course-subjects">Tiếng Anh</b>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link container__course-link-teachers">
+                                <img src="./assets/img/Thay-Quy-Huy2.png" alt="Avatar" class="container__course-avatar-m-size">
+                                <p class="container__course-position">Thầy giáo</p>
+                                <b class="container__course-nameTeacher">Nguyễn Quý Huy</b>
+                                <b class="container__course-subjects">Toán</b>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link container__course-link-teachers">
+                                <img src="./assets/img/Thay-Xuan-Truong.png" alt="Avatar" class="container__course-avatar-m-size">
+                                <p class="container__course-position">Thầy giáo</p>
+                                <b class="container__course-nameTeacher">Trần Xuân Trường</b>
+                                <b class="container__course-subjects">Toán</b>
+                            </a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-5">
+                            <a href="#" class="container__course-link container__course-link-teachers">
+                                <img src="./assets/img/Thay-Hoang-Cuong2.png" alt="Avatar" class="container__course-avatar-m-size">
+                                <p class="container__course-position">Thầy giáo</p>
+                                <b class="container__course-nameTeacher">Hoàng CườngEdu</b>
+                                <b class="container__course-subjects">Vật lý</b>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+            <div class="container__content mt-28">
+                <h1 class="container__heading">Bạn muốn học gì?</h1>
+                <div class="container__nav-footer">
+                    <svg class="container__svg-angle container__svg-angle--left" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                    <ul class="row row--no-wrap row--pad-0--10">
+                        <li class="col col--pad-0-10 l-3 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link container__item-link--nav-footer">
+                                <img src="./assets/img/background-containerNav.jpg" alt="Môn học">
+                                <span>Ôn thi đại học điểm 5-6</span>
+                            </a>
+                        </li>
+                        <li class="col col--pad-0-10 l-3 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link container__item-link--nav-footer">
+                                <img src="./assets/img/background-containerNav.jpg" alt="Môn học">
+                                <span>Ôn thi đại học điểm 6-8</span>
+                            </a>
+                        </li>
+                        <li class="col col--pad-0-10 l-3 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link container__item-link--nav-footer">
+                                <img src="./assets/img/background-containerNav.jpg" alt="Môn học">
+                                <span>Ôn học sinh cấp 3</span>
+                            </a>
+                        </li>
+                        <li class="col col--pad-0-10 l-3 m-4 c-5 container__item">
+                            <a href="#" class="container__item-link container__item-link--nav-footer">
+                                <img src="./assets/img/background-containerNav.jpg" alt="Môn học">
+                                <span>Ôn thu đại học</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="container__svg-angle container__svg-angle--right" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer__content">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-12 c-12 mt-28">
+                        <div class="Logo Logo--footer">
+                            <img class="Logo-img" src="./assets/img/logo.png" alt="logo">
+                        </div>
+                        <div class="footer__contactInfo">
+                            <div class="footer__socials">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <p>
+                                <i class="footer__contactInfo-icon-map fa-solid fa-location-pin"></i>
+                                <a href="#" class="footer__contactInfo-address">
+                                    Tầng 2, số nhà 541 Vũ Tông Phan, Phường Khương Đình, Quận Thanh Xuân, Thành phố Hà Nội, Việt Nam
+                                </a>
+                            </p>
+                            <p class="footer__contactInfo-mobile">Phone: <a href="tell:0842834585">084 283 45 85</a></p>
+                            <p class="footer__contactInfo-mobile">Email: <a href="mailto:vietjackteam@gmail.com">vietjackteam@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6 mt-28">
+                        <a href="#" class="footer__heading footer__heading-hover">Liên kết</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="footer__item-link">Đội ngũ giáo viên tại Vietjack</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Danh sách khóa học, bài giảng</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Danh sách Câu hỏi trắc nghiệm</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Danh sách Câu hỏi tự luận</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Bộ đề trắc nghiệm các lớp</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Tài liệu tham khảo</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Giải bài tập các môn</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Hỏi đáp bài tập</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-6 mt-28">
+                        <a href="#" class="footer__heading footer__heading-hover">Thông tin Vietjack</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="footer__item-link">Giới thiệu về công ty</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Cách thanh toán học phí</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Chính sách hoàn học phí</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Chuyển đổi khóa học</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Chính sách bảo mật</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Điều khoản dịch vụ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Thông tin y tế</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-4 c-12 mt-28">
+                        <h2 class="footer__heading">Tải ứng dụng</h2>
+                        <div class="footer__downloads">
+                            <a href="#" class="footer__downloads-link">
+                                <img src="https://khoahoc.vietjack.com/images/android.svg" alt="Tải ứng dụng trên Google play">
+                            </a>
+                            <a href="" class="footer__downloads-link">
+                                <img src="https://khoahoc.vietjack.com/images/ios.svg" alt="Tải ứng dụng trên Appstore">
+                            </a>
+                        </div>
+                        <hr class="footer__hr">
+                        <div class="footer__facebookPage">
+                            <img src="./assets/img/vietjack-facebook.jfif" alt="facebook vietjack">
+                            <a href="#" class="footer__facebookPage-info">
+                                <img src="./assets/img/Vietjack_logo_footer.png" alt="logo Vietjack">
+                                <div class="footer__facebookPage-info-text">
+                                    <p>Học cùng VietJack</p>
+                                    <p>245.002 lượt thích</p>
+                                </div>
+                            </a>
+                            <div class="footer__facebookPage-btns">
+                                <button>
+                                    <svg fill="#375798" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/>
+                                    </svg>
+                                    Thích Trang
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-share"></i>
+                                    Chia Sẻ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-name">Công ty TNHH đầu tư và dịch vụ giáo dục Vietjack</p>
+            <span class="footer__copyright-text">Giấy chứng nhận ĐKKD số: 0108307822 do Sở KH & ĐT TP Hà Nội cấp lần đầu ngày 04/06/2018 © 2017 Vietjack87.All Rights Reserved.</span>
+        </div>
+    </footer>
+    <div id="backtop">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <div id="messenger">
+        <label class="messenger__icon" for="messenger__check">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </label>
+        <input id="messenger__check" hidden type="checkbox">
+        <div class="messenger__wrapper">
+            <b class="messenger__heading">
+                <span class="msg-dot"></span>
+                Giảng viên Vietjack
+                <i>đang nhắn ...</i>
+            </b>
+            <p class="mesenger__content">
+                Chào bạn, bạn đang cần thông tin về các khóa học online tại <a href="#">VietJack</a>
+                đúng không? Hãy <a href="#">bấm vào đây</a>  để được tư vấn kỹ và báo học phí ưu đãi nhất nhé !
+            </p>
+            <label class="mesenger__close" for="messenger__check"><i class="fa-solid fa-xmark"></i></label>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800);
+        });
+    });
+</script>
+
+</html>

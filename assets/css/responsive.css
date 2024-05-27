@@ -1,0 +1,188 @@
+/* PC */
+@media (min-width: 64em) {
+    .b-dn {
+        display: none;
+    }
+}
+/* Mobile & tablet */
+@media (max-width: 63.999375em) {
+    .m-s-dn {
+        display: none;
+    }
+    .row--no-wrap {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .row--no-wrap::-webkit-scrollbar {
+        height: 1px;
+    }
+    .row--no-wrap::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+    .header__search-btn {
+        flex: 1;
+        position: unset;
+        padding-left: 0;
+        padding-right: 0;
+        color: #666;
+        text-align: left;
+    }
+    .container__nav-footer
+    .container__svg-angle {
+        display: block;
+    }
+    .footer__contactInfo p {
+        line-height: 2.4;
+    }
+    .footer__item-link {
+        padding: 10px 0;
+    }
+    .footer__socials i:nth-child(1) {
+        margin-right: 20px;
+        padding: 11px 14.4px;
+    }
+    .footer__socials i:nth-child(2) {
+        padding: 11px 9.9px;
+    }
+}   
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.999375em) {
+    .container__videoLiveTream-img {
+        height: 387px;
+        object-fit: cover;
+    }
+    .container__exams {
+        height: 307px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.249375em) {
+    .s-dn {
+        display: none;
+    }
+    .header__menu-wrapper {
+        display: flex;
+    }
+    .header__menu {
+        overflow: hidden;
+    }
+    .header__menu-course:hover
+    .header__menu-course-text,
+    .header__menu-link:hover,
+    .header__mobileMenu-heading:hover {
+        color: var(--primery-color);
+    }
+    @keyframes headerNavbarMenuFadeIn {
+        from {
+            opacity: 0;
+            left: 285px;
+        } to {
+            opacity: 1;
+            left: 0;
+        }
+    }
+    .header__navbar-menu {
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        animation: headerNavbarMenuFadeIn ease-in .3s;
+        transition: left .3s;
+    }
+    #header__menu-course-check:checked ~
+    .header__navbar-menu {
+        left: 285px;
+    }
+    .header__mobileMenu-heading {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 46px;
+        color: #666;
+    }
+    .header__mobileMenu-heading i {
+        margin-right: 15px;
+        width: 50px;
+        text-align: center;
+        color: #999;
+    }
+    .header__navbar-menu-link {
+        padding-left: 0;
+        justify-content: unset;
+    }
+    .header__mobileMenu-icon-heading2 {
+        width: 50px;
+        text-align: center;
+        color: #999;
+    }
+    .header__navbar-menu-link-text {
+        margin-left: 15px;
+    }
+    .header__navbar-menu-link-icon--1 {
+        margin-left: auto;
+        color: #999;
+    }
+    .Logo-img {
+        width: 110px;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__search-btn {
+        margin-right: 26px;
+        text-align: right;
+    }
+    .header__individual-help {
+        display: none;
+    }
+    .header__individual-in4 {
+        margin-right: 12px;
+    }
+    #container {
+        width: 102%;
+    }
+    .container__videoLiveTream-img {
+        height: 385px;
+        object-fit: cover;
+    }
+    .container__svg-angle {
+        display: none;
+    }
+    .container__course-body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container__course-name {
+        font-size: 1.5rem;
+    }
+    .container__course-star-list {
+        align-items: center;
+    }
+    .container__course-ratings img {
+        display: none;
+    }
+    .container__course-star-list i {
+        margin-right: 4px;
+        font-size: 1.2rem;
+    }
+    .container__course-oldPrice {
+        font-size: 1.1rem;
+    }
+    .container__course-currentPrice {
+        font-size: 1.3rem;
+    }
+    .container__course-position {
+        font-size: 1.5rem;
+    }
+    .container__course-nameTeacher {
+        font-size: 1.7rem;
+    }
+    .container__item-link--nav-footer span {
+        width: 100%;
+        line-height: 29px;
+    }
+    .footer__copyright-text {
+        width: 100%;
+    }
+}
